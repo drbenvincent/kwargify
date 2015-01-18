@@ -17,6 +17,12 @@ kwargs.d = 4; % note this is an additional argument
 display('Example 2')
 myFunction(42,kwargs)
 
+%% Example 3
+% You can do the same as Example 2, but even more compactly, and kwarg-like
+% by not creating the intermediate kwarg structure...
+display('Example 3')
+myFunction(42, struct('b',5, 'd',4))
+
 return
 
 

@@ -39,6 +39,10 @@ But you can use the kwargs like this
     
 and it will overwrite the fields `b` and `c` but use the default `a` specified in your function.
 
+Alternatively, you don't have to both creating this intermediate kwarg structure as you can just specify things like this...
+
+	myFunction(42, struct('b',5, 'd',4))
+
 ## Licence
 
 Released under the The MIT License (MIT), see `LICENCE.txt`.
